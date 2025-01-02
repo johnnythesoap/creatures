@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "creatures:block/creeper_meat_block"
+    }
+  }
+}

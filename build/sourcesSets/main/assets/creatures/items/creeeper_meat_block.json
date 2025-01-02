@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "creatures:block/creeper_meat_block"
+  }
+}

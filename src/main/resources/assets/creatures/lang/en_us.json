@@ -1,3 +1,7 @@
 {
-  "item.creatures.creeper_meat": "Creeper Meat"
+  "item.creatures.creeper_meat": "Creeper Meat",
+  "item.creatures.cooked_creeper_meat": "Cooked Creeper Meat",
+
+  "block.creatures.creeper_meat_block": "Creeper Meat Block",
+  "item.creatures.creeper_meat_block": "Creeper Meat Block"
 }

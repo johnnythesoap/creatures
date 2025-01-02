@@ -1,7 +1,8 @@
 package net.noritei.creatures;
 
 import net.minecraft.world.item.CreativeModeTabs;
-import net.noritei.creatures.item.moditems;
+import net.noritei.creatures.block.modBlocks;
+import net.noritei.creatures.item.modItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -32,7 +33,8 @@ public class creatures {
     public creatures(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
-        moditems.register(modEventBus);
+        modItems.register(modEventBus);
+        modBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -62,7 +64,12 @@ public class creatures {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             // Access the registered item correctly using .get()
-            event.accept(moditems.CREEPERMEAT.get());
+            event.accept(modItems.CREEPER_MEAT.get());
+            event.accept(modItems.COOKED_CREEPER_MEAT.get());
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(modBlocks.CREEPER_MEAT_BLOCK.get());
         }
     }
 

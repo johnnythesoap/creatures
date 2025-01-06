@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "group": "creeper_meat",
+  "ingredient": "creatures:creeper_meat",
+  "result": {
+    "id": "creatures:cooked_creeper_meat"
+  }
+}

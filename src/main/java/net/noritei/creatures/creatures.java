@@ -2,6 +2,7 @@ package net.noritei.creatures;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.noritei.creatures.block.modBlocks;
+import net.noritei.creatures.item.modCreativeModeTabs;
 import net.noritei.creatures.item.modItems;
 import org.slf4j.Logger;
 
@@ -32,6 +33,8 @@ public class creatures {
 
     public creatures(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+
+        modCreativeModeTabs.register(modEventBus);
 
         modItems.register(modEventBus);
         modBlocks.register(modEventBus);

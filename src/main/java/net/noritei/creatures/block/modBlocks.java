@@ -34,8 +34,7 @@ public class modBlocks {
     public static final RegistryObject<Block> CREEPER_MEAT_BLOCK = registerBlock("creeper_meat_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(creatures.modId, "creeper_meat_block")))
-                    .strength(4f)
-                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
                     .sound(SoundType.NETHERRACK)));
 
 

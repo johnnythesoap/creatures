@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: creatures
+Specification-Vendor: Noritei
+Specification-Version: 1
+Implementation-Title: creatures
+Implementation-Version: 1.0.0-1.21.4
+Implementation-Vendor: Noritei
+

@@ -4,7 +4,7 @@
   <booleanAttribute key="offline_mode" value="false"/>
   <booleanAttribute key="show_console_view" value="true"/>
   <booleanAttribute key="show_execution_view" value="true"/>
-  <stringAttribute key="working_dir" value="C:\Users\sacha\OneDrive\Desktop\codeke\Projects\minecraftMods\creatures"/>
+  <stringAttribute key="working_dir" value="C:\Users\sacha\Desktop\codeke\Projects\minecraftMods\creatures"/>
   <listAttribute key="tasks">
     <listEntry value=":copyEclipseResources"/>
   </listAttribute>
